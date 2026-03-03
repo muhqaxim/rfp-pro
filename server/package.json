@@ -1,0 +1,22 @@
+{
+    "name": "rfp-tracker-server",
+    "version": "1.0.0",
+    "description": "RFP Tracker Pro — Node.js/Express backend proxy for SAM.gov API",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --watch index.js"
+    },
+    "dependencies": {
+        "axios": "^1.7.9",
+        "cheerio": "^1.2.0",
+        "cors": "^2.8.5",
+        "dayjs": "^1.11.19",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mongoose": "^9.2.3",
+        "node-cron": "^4.2.1",
+        "puppeteer": "^24.37.5"
+    }
+}
