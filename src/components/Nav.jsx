@@ -10,7 +10,7 @@ export default function Nav() {
     return (
         <nav className="nav">
             <Link to="/" className="nav-logo">
-                <img src="/itod.png" alt="iTOD" />
+                iTOD
             </Link>
             <div className="nav-links">
                 <Link to="/" className={`nav-link${act('/') === ' active' && loc.pathname === '/' ? ' active' : loc.pathname.startsWith('/rfp') ? '' : act('/')}`}>RFPs</Link>
