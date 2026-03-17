@@ -67,7 +67,7 @@ export async function runAllScrapers() {
 
     resetState();
     console.log('\n═══════════════════════════════════');
-    console.log(` RFP Tracker — Scraping ${SCRAPERS.length} sources`);
+    console.log(` ITOD Scraper — Scraping ${SCRAPERS.length} sources`);
     console.log('═══════════════════════════════════\n');
 
     const summary = [];

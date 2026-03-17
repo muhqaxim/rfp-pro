@@ -66,7 +66,7 @@ app.post('/api/admin/fix-active', async (req, res) => {
 
 // ── Start ────────────────────────────────────
 app.listen(PORT, async () => {
-    console.log(`\n🚀 RFP Tracker Pro  |  http://localhost:${PORT}`);
+    console.log(`\n🚀 ITOD Scraper  |  http://localhost:${PORT}`);
     console.log(`   DB: ${(process.env.MONGODB_URI || '').replace(/:\/\/[^@]+@/, '://***@') || '❌ not set'}\n`);
     await connectDB();
 

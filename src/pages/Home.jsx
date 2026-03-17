@@ -28,7 +28,7 @@ export default function Home() {
                     <div className="hero-eyebrow">Higher Education Procurement</div>
                     <h1>Find Every<br /><em>Relevant</em><br />RFP. Fast.</h1>
                     <p className="hero-sub">
-                        RFP Tracker Pro aggregates live procurement data from 15 top US universities and state portals — financial aid, student services, IT support, enrollment management, and more.
+                        ITOD Scraper aggregates live procurement data from 15 top US universities and state portals — financial aid, student services, IT support, enrollment management, and more.
                     </p>
                     <div className="hero-cta">
                         <Link to="/search" className="btn btn-primary" style={{ fontSize: '15px', padding: '13px 28px' }}>
@@ -131,7 +131,7 @@ export default function Home() {
 
             {/* FOOTER */}
             <footer>
-                <div className="footer-logo">RFP Tracker Pro</div>
+                <div className="footer-logo">ITOD Scraper</div>
                 <div>Data aggregated from 15 US university procurement portals</div>
                 <div>Built for Higher Education Procurement</div>
             </footer>

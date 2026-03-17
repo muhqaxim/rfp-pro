@@ -1,7 +1,7 @@
 {
     "name": "rfp-tracker-server",
     "version": "1.0.0",
-    "description": "RFP Tracker Pro — Node.js/Express backend proxy for SAM.gov API",
+    "description": "ITOD Scraper — Node.js/Express backend proxy for SAM.gov API",
     "main": "index.js",
     "type": "module",
     "scripts": {
